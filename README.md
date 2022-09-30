@@ -7,6 +7,7 @@ for example you can test if an rsk node is synced by comparing the output to the
 where -r,-w are test endpoints and -u is in this example the official mainnet rpc endpoint
 
 You can test performance to specify values below. To test all methods please specify option ```all```
+
 ```./evmctl.js perf -r ${RSK_ENDPOINT}  -m ${RPC_METHOD}  -a ${ATTEMPTS} -i ${INTERVAL}"```
 
 
